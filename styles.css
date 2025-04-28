@@ -1,12 +1,29 @@
+body {
+    background-color: rgb(26, 5, 166);
+}
+
+h1 {
+    text-align: center;
+    color: hsla(0,0%,62%,0.95);
+    font-family: 'Roboto', sans-serif;
+}
+
 #outer-container {
     display: flex;
     flex-direction: column;
+
+    position: absolute;
+    left: 50%;
+    right:50%;
+    top: 50%;  
+    transform: translate(-50%, -50%);
 
     background-color: rgb(88, 88, 88);
     /* border: 1px solid black; */
     border-radius: 2px;
     width: 200px;
     height: 200px;
+    border: 1px solid black;
 }
 
 .inner-container {
@@ -25,7 +42,8 @@
     justify-content: flex-end;
     /* flex-grow: 1; */
 
-    background-color: rgb(225, 224, 224);
+    background-color: rgb(44,42,42);
+    color: white;
     border: 1px solid black;
     border-radius: 2px;
     padding-right: 2px;
@@ -43,4 +61,6 @@ button {
     height: -webkit-fill-available;
     text-align: center;
     flex-grow: 1;
+    background-color: orange;
 }
+
