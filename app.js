@@ -35,7 +35,8 @@ const numbers = document.querySelectorAll(".number")
 const operators = document.querySelectorAll(".operator")
 const evaluate = document.querySelector("#evaluate")
 const clear = document.querySelector("#clear")
-//for of loop that iterates over all number buttons and adds an event listener which upon a user click will populate the display with a number before and after the operator button is selected **
+
+//for of loop that iterates over all number buttons and adds an event listener which, upon a user click, will populate the display with a number before and after the operator button is selected 
 for (let number of numbers) {
     number.addEventListener("click", (e) => {
         if (display.innerText !== "Error") {
@@ -56,7 +57,7 @@ for (let number of numbers) {
     }
     )
 }
-// for of loop that iterates over all operator buttons and adds an event listener which upon a user click will assign the value of that operator button to the oprtr variable **
+// for of loop that iterates over all operator buttons and adds an event listener which, upon a user click, will assign the value of that operator button to the oprtr variable 
 for (let operator of operators) {
     operator.addEventListener("click", (e) => {
         if (firstNum) {

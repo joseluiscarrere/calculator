@@ -1,12 +1,8 @@
 body {
-    background-color: rgb(26, 5, 166);
-}
-
-h1 {
-    text-align: center;
-    color: hsla(0,0%,62%,0.95);
+    background-color: rgb(20, 62, 78);
     font-family: 'Roboto', sans-serif;
 }
+
 
 #outer-container {
     display: flex;
@@ -19,7 +15,6 @@ h1 {
     transform: translate(-50%, -50%);
 
     background-color: rgb(88, 88, 88);
-    /* border: 1px solid black; */
     border-radius: 2px;
     width: 200px;
     height: 200px;
@@ -31,30 +26,32 @@ h1 {
     flex-direction: row;
     flex-grow: 1;
 
-    height: 20px;
+    height: 100%;
 
     background-color: rgba(225, 225, 225, 0.817);
 }
 
 #display {
     display: flex;
-    /* flex-direction: row; */
-    justify-content: flex-end;
-    /* flex-grow: 1; */
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
 
-    background-color: rgb(44,42,42);
+    background-color: rgb(31, 30, 30);
     color: white;
     border: 1px solid black;
     border-radius: 2px;
     padding-right: 2px;
-    width: auto;
-    height: max-content;
-    /* height: 23px; */
+    height: 100%;
+
+    
 }
 
-/* #display div {
-    display: flex;
-} */
+#display p {
+    align-self: stretch;
+    height: auto;
+    margin: 0;
+}
 
 button {
     width: -webkit-fill-available;
