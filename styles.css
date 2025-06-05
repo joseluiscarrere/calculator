@@ -5,7 +5,6 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    font-size: larger;
 }
 
 
@@ -43,7 +42,7 @@ body {
     border-radius: 2px;
     padding-right: 5px;
     height: 100%;
- 
+    font-size: 2rem;
 }
 
 #display p {
