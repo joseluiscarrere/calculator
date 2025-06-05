@@ -58,5 +58,9 @@ button {
     flex-grow: 1;
     background-color: orange;
     font-size: 2rem;
+    transition: 0.2s;
 }
 
+button:active{
+    background-color: white;
+}
